@@ -1,0 +1,394 @@
+﻿{
+    "size": 21,
+    "yields": {
+        "tile": {
+            "food": 11,
+            "production": 1,
+            "gold": 10,
+            "faith": 1
+        },
+        "citizen": {
+            "production": 1
+        }
+    },
+    "tiles": [
+
+        {
+            "pos": "1/01",
+            "food": 1,
+            "production": 4,
+            "faith": 1
+        },
+        {
+            "pos": "1/02",
+            "food": 2,
+            "faith": 1
+        },
+        {
+            "pos": "1/03",
+            "food": 2,
+            "gold": 3,
+            "culture": 3,
+            "faith": 7
+        },
+        {
+            "pos": "1/04",
+            "food": 4,
+            "faith": 1
+        },
+        {
+            "pos": "1/05",
+            "food": 1,
+            "production": 4,
+            "faith": 1,
+            "gold": 1
+        },
+        {
+            "pos": "1/06",
+            "food": 1,
+            "production": 1,
+            "gold": 1,
+            "faith": 1
+
+        },
+
+        {
+            "pos": "2/01",
+            "food": 1,
+            "production": 4,
+            "faith": 1
+        },
+        {
+            "pos": "2/02",
+            "food": 2,
+            "faith": 1
+        },
+        {
+            "pos": "2/03",
+            "food": 1,
+            "production": 1,
+            "gold": 3,
+            "faith": 1
+        },
+        {
+            "pos": "2/04",
+            "food": 1,
+            "production": 4,
+            "gold": 4,
+            "faith": 1
+        },
+        {
+            "pos": "2/05",
+            "food": 2,
+            "production": 1
+        },
+        {
+            "pos": "2/06",
+            "food": 4,
+            "faith": 1
+        },
+        {
+            "pos": "2/07",
+            "food": 4,
+            "faith": 1
+        },
+        {
+            "pos": "2/08",
+            "food": 1,
+            "production": 1,
+            "gold": 1,
+            "faith": 1
+        },
+        {
+            "pos": "2/09",
+            "food": 1,
+            "production": 1,
+            "gold": 1,
+            "faith": 1
+        },
+        {
+            "pos": "2/10",
+            "food": 1,
+            "production": 1,
+            "gold": 3,
+            "faith": 1
+        },
+        {
+            "pos": "2/11",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "2/12",
+            "food": 2,
+            "faith": 1
+        },
+
+        {
+            "pos": "3/02",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/03",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/04",
+            "food": 1,
+            "production": 1
+        },
+        {
+            "pos": "3/05",
+            "food": 2
+        },
+        {
+            "pos": "3/06",
+            "food": 1,
+            "production": 1
+        },
+        {
+            "pos": "3/07",
+            "food": 1,
+            "production": 1
+        },
+        {
+            "pos": "3/08",
+            "food": 6,
+            "faith": 1
+        },
+        {
+            "pos": "3/09",
+            "food": 4,
+            "faith": 1
+        },
+        {
+            "pos": "3/10",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/11",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/12",
+            "food": 4,
+            "production": 1,
+            "gold": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/13",
+            "food": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/14",
+            "food": 4,
+            "production": 1,
+            "gold": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/15",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/16",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/17",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        },
+        {
+            "pos": "3/18",
+            "food": 1,
+            "production": 1,
+            "faith": 1
+        }
+    ],
+    "buildings": [
+        {
+            "name": "Artist's Guild",
+            "capacity": 2,
+            "yields": {
+                "base": {                    
+                    "artist": 2
+                },
+                "citizen": {
+                    "culture": 3,
+                    "artist": 3
+                }
+            }
+        },
+        {
+            "name": "University",
+            "capacity": 2,
+            "yields": {
+                "base": {                    
+                },
+                "citizen": {
+                    "science": 3,
+                    "scientist": 3
+                }
+            }
+        },
+        {
+            "name": "Market",
+            "capacity": 1,
+            "yields": {
+                "base": {
+                    "gold": 1
+                },
+                "citizen": {
+                    "gold": 2,
+                    "merchant": 3
+                }
+            }
+        },
+        {
+            "name": "Workshop",
+            "capacity": 1,
+            "yields": {
+                "base": {                    
+                    "production": 2
+                },
+                "citizen": {
+                    "production": 2,
+                    "engineer": 3
+                }
+            }
+        },
+        {
+            "name": "Amphitheater",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "culture": 1
+                }
+            }
+        },
+        {
+            "name": "Opera House",
+            "capacity": 0,
+            "yields": {
+                "base": {                    
+                    "culture": 1
+                }
+            }
+        },
+        {
+            "name": "Granary",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "food": 2                    
+                }
+            }
+        },
+        {
+            "name": "Monument",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "culture": 2
+                }
+            }
+        },
+        {
+            "name": "Mosque",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "faith": 3,
+                    "culture": 2
+                }
+            }
+        },
+        {
+            "name": "Pagoda",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "faith": 2,
+                    "culture": 2
+                }
+            }
+        },
+        {
+            "name": "Shrine",
+            "capacity": 0,
+            "yields": {
+                "base": {                    
+                    "faith": 2
+                }
+            }
+        },
+        {
+            "name": "Template",
+            "capacity": 0,
+            "yields": {
+                "base": {                    
+                    "faith": 3
+                }
+            }
+        },
+        {
+            "name": "Water Mill",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "food": 2,
+                    "production": 1
+                }
+            }
+        },
+        {
+            "name": "Palace",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "production": 3,
+                    "science": 3,
+                    "culture": 1,
+                    "gold": 3
+                }
+            }
+        },
+        {
+            "name": "Oracle",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "culture": 3,
+                    "scientist": 1
+                }
+            }
+        },
+        {
+            "name": "Petra",
+            "capacity": 0,
+            "yields": {
+                "base": {
+                    "culture": 1,
+                    "engineer": 1
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,582 @@
+﻿{
+    "size": 28,
+    "yields": {
+        "tile": {            
+            "food": 17,
+            "production": 3
+        },
+        "citizen": {
+            "production": 2 
+        }
+    },
+    "tiles": [
+
+        {
+            "pos": "1/01",
+			"food": 3,
+			"production": 3,
+			"gold": 1			
+        },
+        {
+            "pos": "1/02",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "1/03",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "1/04",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "1/05",
+			"food": 3,
+			"production": 3,
+			"gold": 1
+        },
+		{
+            "pos": "1/06",
+			"production": 4,
+			"gold": 2,
+			"faith": 1
+        },
+		
+		{
+            "pos": "2/01",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "2/02",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "2/03",
+			"food": 1,
+			"production": 1,
+			"culture": 2,
+			"faith": 6
+        },
+		{
+            "pos": "2/04",
+			"food": 1,
+			"production": 6,
+			"culture": 2
+        },
+		{
+            "pos": "2/05",
+			"food": 2,
+			"production": 2,
+			"gold": 2,
+			"faith": 1
+        },
+		{
+            "pos": "2/06",
+			"food": 1,
+			"production": 3
+        },
+		{
+            "pos": "2/07",
+			"production": 4,
+			"gold": 2,
+			"faith": 1
+        },
+		{
+            "pos": "2/08",
+			"food": 2,
+			"production": 2,
+			"gold": 3
+        },
+		{
+            "pos": "2/09",
+			"food": 3,
+			"production": 2			
+        },
+		{
+            "pos": "2/10",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "2/11",
+			"food": 1,
+			"gold": 3
+        },
+		{
+            "pos": "2/12",
+			"food": 1,
+			"production": 3
+        },
+		
+		{
+            "pos": "3/01",
+			"food": 1,
+			"production": 1,
+			"gold": 3
+        },
+		{
+            "pos": "3/02",
+			"food": 3,
+			"production": 3,
+			"gold": 1
+        },
+		{
+            "pos": "3/03",
+			"food": 3,
+			"production": 2			
+        },
+		{
+            "pos": "3/04",
+			"production": 2,
+			"gold": 3
+        },
+		{
+            "pos": "3/05",
+			"production": 6
+        },
+		{
+            "pos": "3/06",
+			"food": 3,
+			"production": 1
+        },
+		{
+            "pos": "3/07",
+			"food": 3,
+			"production": 1
+        },
+		{
+            "pos": "3/08",
+			"food": 1,
+			"production": 1,
+			"science": 12,
+			"culture": 2
+        },
+		{
+            "pos": "3/09",
+			"food": 1, 
+			"production": 3
+        },
+		{
+            "pos": "3/10",
+			"food": 1, 
+			"production": 3
+        },
+		{
+            "pos": "3/11",
+			"food": 1, 
+			"production": 3
+        },
+		{
+            "pos": "3/12",
+			"food": 3,
+			"production": 2
+        },
+		{
+            "pos": "3/13",
+			"food": 1,
+			"production": 1,
+			"gold": 3
+        },
+		{
+            "pos": "3/14",
+			"food": 1,
+			"production": 4
+        },
+		{
+            "pos": "3/15"			
+        },
+		{
+            "pos": "3/16",
+			"production": 2,
+			"gold": 3
+        },
+		{
+            "pos": "3/17",
+			"food": 1,
+			"gold": 3
+        },
+		{
+            "pos": "3/18",
+			"food": 1,
+			"production": 4,
+			"faith": 1
+        }
+
+    ],
+    "buildings": [
+        {
+            "name": "Artists' Guild",
+            "capacity": 2,
+            "yields": {
+                "base": {                                        
+					"artist": 2
+                },
+                "citizen": {   
+					"production": 1,
+					"artist": 3,
+					"culture": 3
+                }
+            }
+        },
+		{
+            "name": "Public School",
+            "capacity": 1,
+            "yields": {
+                "base": {                                        
+					"science": 3
+                },
+                "citizen": {    
+					"production": 1,
+					"science": 3,
+					"scientist": 3
+                }
+            }
+        },
+		{
+            "name": "Research Lab",
+            "capacity": 1,
+            "yields": {
+                "base": {                                        
+					"science": 4
+                },
+                "citizen": {    
+					"production": 1,
+					"science": 3,
+					"scientist": 3
+                }
+            }
+        },
+		{
+            "name": "University",
+            "capacity": 2,
+            "yields": {
+                "base": {                                        
+                },
+                "citizen": {                    
+					"production": 1,
+					"science": 3,
+					"scientist": 3
+                }
+            }
+        },
+		{
+            "name": "Bank",
+            "capacity": 1,
+            "yields": {
+                "base": {           
+					"gold": 2,
+					"science": 1
+                },
+                "citizen": {    
+					"production": 1,
+					"gold": 2,
+					"merchant": 3
+                }
+            }
+        },
+		{
+            "name": "Bazaar",
+            "capacity": 1,
+            "yields": {
+                "base": {       
+					"gold": 2,
+					"science": 1
+                },
+                "citizen": {    
+					"production": 1,
+					"gold": 2,
+					"merchant": 3
+                }
+            }
+        },
+		{
+            "name": "Stock Exchange",
+            "capacity": 2,
+            "yields": {
+                "base": {                                        
+					"gold": 3,
+					"science": 1
+                },
+                "citizen": {                    
+					"gold": 2,
+					"production": 1,
+					"merchant": 3
+                }
+            }
+        },
+		{
+            "name": "Factory",
+            "capacity": 2,
+            "yields": {
+                "base": {                                        
+					"production": 4
+                },
+                "citizen": {       
+					"production": 3,
+					"engineer": 3
+                }
+            }
+        },
+		{
+            "name": "Windmill",
+            "capacity": 1,
+            "yields": {
+                "base": {                                        
+					"production": 2
+                },
+                "citizen": {       
+					"production": 3,
+					"engineer": 3
+                }
+            }
+        },
+		{
+            "name": "Workshop",
+            "capacity": 1,
+            "yields": {
+                "base": {                                        
+					"production": 2
+                },
+                "citizen": {       
+					"production": 3,
+					"engineer": 3
+                }
+            }
+        },
+		{
+            "name": "Museum",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Amphitheater",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Broadcast Tower",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Cathedral",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 1,
+					"faith": 1
+                }
+            }
+        },
+		{
+            "name": "Opera House",
+            "capacity": 0,
+            "yields": {
+                "base": {       
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Hermitage",
+            "capacity": 0,
+            "yields": {
+                "base": {     
+					"culture": 2
+                }
+            }
+        },
+		{
+            "name": "Uffizi",
+            "capacity": 0,
+            "yields": {
+                "base": {  
+					"culture": 5
+                }
+            }
+        },
+		{
+            "name": "National Epic",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Palace",
+            "capacity": 0,
+            "yields": {
+                "base": {  
+					"production": 3,
+					"gold": 3,
+					"science": 3,
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Cristo Redentor",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 8
+                }
+            }
+        },
+		{
+            "name": "Forbidden Palace",
+            "capacity": 0,
+            "yields": {
+                "base": {            
+					"culture": 4
+                }
+            }
+        },
+		{
+            "name": "Grand Temple",
+            "capacity": 0,
+            "yields": {
+                "base": {        
+					"faith": 8
+                }
+            }
+        },
+		{
+            "name": "Hagia Sophia",
+            "capacity": 0,
+            "yields": {
+                "base": {        
+					"faith": 3,
+					"culture": 3
+                }
+            }
+        },
+		{
+            "name": "Hanging Gardens",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"food": 6,
+					"culture": 4
+                }
+            }
+        },
+		{
+            "name": "National College",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"science": 3,
+					"culture": 1
+                }
+            }
+        },
+		{
+            "name": "Notre Dame",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 3,
+					"faith": 4,
+					"merchant": 1
+                }
+            }
+        },
+		{
+            "name": "Pyramids",
+            "capacity": 0,
+            "yields": {
+                "base": {    
+					"culture": 4,
+					"engineer": 1
+                }
+            }
+        },
+		{
+            "name": "Castle",
+            "capacity": 0,
+            "yields": {
+                "base": {    
+					"gold": 3,
+					"culture": 2
+                }
+            }
+        },
+		{
+            "name": "Granary",
+            "capacity": 0,
+            "yields": {
+                "base": {   
+					"food": 2
+                }
+            }
+        },
+		{
+            "name": "Hospital",
+            "capacity": 0,
+            "yields": {
+                "base": {    
+					"food": 5
+                }
+            }
+        },
+		{
+            "name": "Monument",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"culture": 2
+                }
+            }
+        },
+		{
+            "name": "Shrine",
+            "capacity": 0,
+            "yields": {
+                "base": {                                        
+					"faith": 1
+                }
+            }
+        },
+		{
+            "name": "Temple",
+            "capacity": 0,
+            "yields": {
+                "base": {  
+					"culture": 2,
+					"faith": 2
+                }
+            }
+        },
+		{
+            "name": "Water Mill",
+            "capacity": 0,
+            "yields": {
+                "base": {      
+					"food": 2,
+					"production": 1
+                }
+            }
+        },
+    ]
+}
+
